@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>giới thiệu bản thân</title>
+</head>
+<link rel="stylesheet" type="text/css" href="css/vu.css">
+<body>
+<div class="vu">
+    <h1>Xin chào, tôi là Quang Vũ</h1>
+    <p>Tôi là sinh viên đam mê lập trình web và yêu thích công nghệ.</p>
+
+    <h2>Kỹ năng</h2>
+    <ul id="skills-list">
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+    </ul>
+
+    <button onclick="addSkill()">Thêm kỹ năng</button>
+
+    <h2>Liên hệ</h2>
+    <form onsubmit="return handleSubmit(event)">
+      <input type="text" id="name" placeholder="Tên của bạn" required>
+      <input type="email" id="email" placeholder="Email của bạn" required>
+      <button type="submit">Gửi</button>
+    </form>
+    <p id="message"></p>
+  </div>
+
+  <script src="js/vu.js"></script>
+</body>
+</html>
